@@ -3,70 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"/> -->
+    <!-- <link rel="stylesheet" href="./Css/main.css">
+    <link rel="stylesheet" href="./Css/index.css"> -->
+
     <title>The Treat Corner</title>
+
 </head>
 <body>
     <header>
-        <div class="header_logo">
-            <!-- logo -->
-             <img src="" alt="The Treat Corner">
-        </div>
 
-        <!-- Main nav bar -->
-        <nav class="main_nav">
-            <ul class="nav_list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact us</a></li>
+        <!-- Logo -->
+        <img src="./images/the-treat-corner-logo.png" alt="The Treat Corner" height="60" />
+
+        <!-- Primary nav -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <Section id="hero">
-        <!-- introduction call to action heading -->
-        <div class="hero_text">
-            <h1>Delicious Homemade Treats</h1>
-            <p>order your favorite treats for your <span>events</span>, <span>parties</span>
-            or just because.</p>
-            <a href="" class="call_to_action_button"></a>
-        </div>
 
-        <div>
-            <img src="" alt="Picture of treats">
-        </div>
-    </Section>
-    <section class="cards_section">
-        <div class="card_container">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-        </div>
-        <div class="call_to_action">
-            <h3>Order your favorite treats for events, gifts or just because</h3>
-            <a href="">View All Treats</a>
-        </div>
-    </section>
-    <section class="find_us">
-        <div class="container">
-            <img src="" alt="facebook" class="facbook_logo">
-            <img src="" alt="instagram" class="instagram_logo">
-        </div>
-        <div class="container">
-            <h2>Follow us for the latest updates and offers!</h2>
-        </div>
-    </section>
+    <main>
+            <!-- Hero -->
+
+        <section class="hero">
+            <div class="hero_text">
+                <h1>Delicious Homemade Treats</h1>
+                <p>order your favorite treats for your <span>events</span>, <span>parties</span>
+                or just because.</p>
+                <button><a href="./contact.html" class="call_to_action_button">Order Now</a></button>
+            </div>
+
+            <div>
+                <img src="" alt="Picture of treats">
+            </div>
+        </section>
+
+        <!-- Showcase -->
+        <section class="cards_section">
+                <div class="card">
+                    <img src="" alt="Malva Pudding">
+                    <h3>Malva Pudding</h3>
+                </div>
+                <div class="card">
+                    <img src="" alt="Dunked Oreos<">
+                    <h3>Dunked Oreos</h3>
+                </div>
+                <div class="card">
+                    <img src="" alt="Milk Tart Cups">
+                    <h3>Milk Tart Cups</h3>
+                </div>
+                <div class="card">
+                    <img src="" alt="Cake Pops">
+                    <h3>Cake Pops</h3>
+                </div>
+                <div class="card">
+                    <img src="" alt="Dunked Rice Krispy treats">
+                    <h3>Dunked Rice Krispy treats</h3>
+                </div>
+                <div class="card">
+                    <img src="" alt="Brownies">
+                    <h3>Brownies</h3>
+                </div>
+            
+            <div class="call_to_action">
+                <h3>Order your favorite treats for events, gifts or just because</h3>
+                <button><a href="./products.html">View All Treats</a></button>
+            </div>
+        </section>
+        <!-- Social links -->
+        <section class="find_us">
+            <div class="container">
+                <a href=""><img src="" alt="facebook" class="facbook_logo"></a>
+            </div>
+            <div class="container">
+                <h2>Follow us for the latest updates and offers!</h2>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer with nav -->
     <footer class="footer_conatiner">
         <div class="slogan_container">
             <img src="" alt="heart">
-            <h2 class="slogane">Sweet Treats Made With Love</h2>
+            <h2 class="slogan">Sweet Treats Made With Love</h2>
             <img src="" alt="heart">
         </div>
         <div>
             <div>
                 <p>&copy The Treat Corner. All Rights Reserved</p>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </footer>
